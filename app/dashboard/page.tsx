@@ -11,7 +11,7 @@ export default async function Page() {
   const {numberOfCustomers,totalPaidInvoices,numberOfInvoices,totalPendingInvoices} = await fetchCardData()
 
   return (
-    <main>
+    <main className="select-none">
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
         Dashboard
       </h1>
