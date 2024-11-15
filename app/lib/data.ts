@@ -8,7 +8,6 @@ import {
   Revenue,
 } from "./definitions";
 import { formatCurrency } from "./utils";
-import { notFound } from "next/navigation";
 
 export async function fetchRevenue() {
   try {
