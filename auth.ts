@@ -30,11 +30,11 @@ export const { auth, signIn, signOut } = NextAuth({
           const { email, password } = parsedCredentials.data;
           const user = await getUser(email);
           if (!user) return null;
+
           const passwordsMatch = password == user.password;
           // const passwordsMatch = bcrypt.compare(password,user.password)
 
           if (passwordsMatch) {
-            console.log("todo correcto");
             return user;
           }
         }
