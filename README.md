@@ -1,6 +1,7 @@
 # My first NextJS proyect
 
-Im following the NextJS web course
+Im was following the NextJS web course.
+I already finished the course.
 
 
 ## Next.js App Router Course - Starter
